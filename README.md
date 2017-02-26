@@ -30,6 +30,14 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 # Usage
  1. Visit /admin/config/services/ga_measurement_protocol and enter your 
  Universal Analytics Tracking ID
+ 
+#Similar Modules
+ There are modules that partially implement the Measurement Protocol; however, the Google Analytics Measurement
+ Protocol fully supports all event types, this module simply provides the bridge.
+ 1. https://www.drupal.org/sandbox/nvahalik/2189881; Sandbox; 7.x only; appears to only support the Event type.
+ 2. https://www.drupal.org/project/ga_push; Requires google_analytics; currently doesn't support all types.
+ 3. https://www.drupal.org/project/commerce_google_analytics; requires google_analytics and ga_push; only supports 
+ eCommerce type
 
 [drupal-module-install]: https://www.drupal.org/docs/8/extending-drupal/installing-contributed-modules "Installing Contributed Modules"
 [composer-dependencies]: https://www.drupal.org/docs/8/extending-drupal/installing-modules-composer-dependencies "Installing modules' Composer dependencies"
