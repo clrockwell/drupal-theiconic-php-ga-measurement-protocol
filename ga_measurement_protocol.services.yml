@@ -1,0 +1,5 @@
+services:
+  gamp:
+    class: TheIconic\Tracking\GoogleAnalytics\Analytics
+    arguments: []
+

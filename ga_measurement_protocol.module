@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ga_measurement_protocol.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ga_measurement_protocol_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ga_measurement_protocol module.
+    case 'help.page.ga_measurement_protocol':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Use theiconinc/php-ga-measurement-protocol within Drupal') . '</p>';
+      return $output;
+
+    default:
+  }
+}

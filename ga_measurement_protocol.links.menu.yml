@@ -1,0 +1,4 @@
+ga_measurement_protocol.settings:
+  title: 'Google Analytics Measurement Protocol'
+  parent: 'system.admin_config_services'
+  route_name: 'ga_measurement_protocol.admin_settings_form'

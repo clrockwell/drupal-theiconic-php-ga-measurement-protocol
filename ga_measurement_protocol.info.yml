@@ -1,0 +1,5 @@
+name: Google Analytics Measurement Protocol
+type: module
+description: Use theiconinc/php-ga-measurement-protocol within Drupal
+core: 8.x
+package: Google Analytics

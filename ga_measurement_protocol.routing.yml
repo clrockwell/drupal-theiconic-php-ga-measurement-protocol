@@ -1,0 +1,8 @@
+ga_measurement_protocol.admin_settings_form:
+  path: '/admin/config/services/ga_measurement_protocol'
+  defaults:
+    _form: '\Drupal\ga_measurement_protocol\Form\AdminSettingsForm'
+    _title: 'AdminSettingsForm'
+  requirements:
+    _access: 'TRUE'
+  

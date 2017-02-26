@@ -1,0 +1,23 @@
+{
+  "name": "drupal/ga_measurement_protocol",
+  "type": "drupal-module",
+  "description": "Use theiconinc/php-ga-measurement-protocol within Drupal",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/ga_measurement_protocol",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Chris Rockwell",
+      "homepage": "https://twitter.com/chrisrockwell",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/ga_measurement_protocol",
+    "source": "http://cgit.drupalcode.org/ga_measurement_protocol"
+  },
+  "require": {
+    "theiconic/php-ga-measurement-protocol": "^2.0"
+  }
+}
